@@ -15,17 +15,17 @@ database consists of information from 1946. Thus with increase in information, t
 alter/ transform the data is carried out
 
 3. Complexity Involved
-1. Find the key area, gaps identified in the topic survey where the project can add value to the
+a. Find the key area, gaps identified in the topic survey where the project can add value to the
 customers and business.
-2. Since datasets involving court cases have multiple variables, the variables that aid in the prediction of
+b. Since datasets involving court cases have multiple variables, the variables that aid in the prediction of
 "partyWinning" have to be selected. Certain predictor variables involve information that a law firm may
 not have access to, before the case begins in the supreme court. Hence these variables are removed
-3. Merging of different columns so that it makes sense which further reduces processing and execution
+c. Merging of different columns so that it makes sense which further reduces processing and execution
 time and then building an accurate model with decent respective model scores using required
 libraries and algorithms.To obtain duration of the case , various columns were merged through
 appropriate datetime techniques.
-4. Since each column is unique, the null value imputation was done diligently using hot deck imputation.
-5. Finding out the best target variable as the dataset contained multiple potential target variables.
+d. Since each column is unique, the null value imputation was done diligently using hot deck imputation.
+e. Finding out the best target variable as the dataset contained multiple potential target variables.
 
 
 4. Project Outcome
@@ -39,24 +39,24 @@ gain reputation for the same.
 
 
 5. METHODOLOGY TO BE FOLLOWED
-[1] The Primary step of this project is to understand the relationship between data and the field of Law. The
+[a] The Primary step of this project is to understand the relationship between data and the field of Law. The
 US supreme court database is used for this project. A dataset which focuses on the case details and final
 judgement is chosen for analysis .
-[2] As Legal Analytics is a broad field, the plausible target variables and
+[b] As Legal Analytics is a broad field, the plausible target variables and
 their respective predictor variables are studied. The Target variable has been identified as the winning party
 and the case details as the predictor variables.
-[3] The necessary data is prepared only when the data has
+[c] The necessary data is prepared only when the data has
 been studied for its important characteristics and the potential anomalies it may possess. Exploratory Data
 Analysis is performed on the data using Univariate-Bivariate-Multivariate analysis through visual inspection or
 statistical tests based on the type of data. These steps build the necessary foundation to perform feature
 engineering, data reduction and transformation. 
-[4] The next phase is to create a model which is capable of
+[d] The next phase is to create a model which is capable of
 capturing the characteristics of the target variable. This involves selecting an optimal Hypothesis function (ML
 model ) which captures the true relationship between the explanatory and response variables (Low Bias). At
 the same time the model must also be able to make good predictions for data that it has not seen before
 (Low Variance). Basic models such as Logistic Regression, Linear Regression to advanced models such as
 AdaBoost and XGBoost could be tested for the same. 
-[5] Various metrics can be used to evaluate the
+[e] Various metrics can be used to evaluate the
 efficiency of a model. Based on what the business/ research considers important, specific metrics and
 thresholds can be used to make our model more appropriate for the Business problem at hand. On achieving
 the necessary sufficiency , the model and the methodology is further evaluated in the presence of an industry
